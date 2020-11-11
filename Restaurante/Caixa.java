@@ -9,17 +9,17 @@ public class Caixa{
         this.conta = conta;
     }
 
-    void setTotal(float x){
+    public void setTotal(float x){
         this.total += x;
     }
-    void setSaida(float x){
+    public void setSaida(float x){
         this.total -= x;
         this.saida += x;
     }
-    float getTotal(){
+    public float getTotal(){
         return this.total;
     }
-    float getSaida(){
+    public float getSaida(){
         return this.saida;
     }
 
